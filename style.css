@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #f1f1f1!important;
+}
+#header{
+    padding: 3% 1%;
+    padding-bottom: 5%;
+}
+h1{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    
+}
+h3{
+    line-height: 2;
+    color: grey;
+    margin-bottom: 4%;
+    font-size: 1rem;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3 span{
+    background-color: black;
+    color: white;
+    padding:  5px 10px;
+}
+.card{
+    text-align: left;
+}
+.card h3 span{
+    background-color:white;
+    color: grey;
+}
+.row2{
+    
+    margin-top: 2%;
+}
+.right{
+    margin-top: 5% !important;
+    text-align: left;
+    background-color: white;
+}
+
+.right img{
+    
+    width: 50px;
+    float: left;
+}
+#right-head{
+    background-color: #f1f1f1!important;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    color: rgb(139, 139, 139);
+    line-height: 3;
+    text-align:left;
+    padding-left: 20px;
+    margin-bottom: 0px;
+    
+}
+
+.post-content{
+    padding: 10px 20px;
+    border-bottom: 2px solid #f1f1f1!important;
+    transition: 0.5;
+}
+.post-content img{
+    margin-right: 10px;
+}
+.post-content h2{
+    font-size: 1.1rem;
+}
+
+.post-content:hover{
+    background-color: #e7e4e4!important;
+}
+.card{
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.4);
+-webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.4);
+-moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.4);
+}
+#tag{
+    margin-top: 5%;
+    /* box-shadow: 2px 2px 2px 2px black; */
+}
+#tag .card-body{
+    
+    padding: 0;
+}
+.content-flex{
+    padding: 2% 4.5%;
+}
+.content-flex span{
+    background-color: #f1f1f1;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2px 4px;
+    margin-top: 10px;
+}
+.content-flex .active
+{
+    background-color: black;
+    color: white;
+}
+
+#footer{
+    text-align: left;
+    padding: 2% 0%;
+    background-color: #616161!important;
+    color: white;
+}
+#footer button{
+    border-radius: 0;
+    padding: 10px 20px;
+    margin-left: 3px;
+    margin-bottom: 20px;
+}
+
+#footer .enabled:hover{
+
+    background-color: #f1f1f1 !important;
+    color: black;
+}
+
+
+#footer p{
+    margin-left: 10px;
+}
+#footer span{
+    text-decoration: underline;
+}
+
+@media (max-width:768px){
+    .face{
+        margin-top: 2%;
+    }
+}
